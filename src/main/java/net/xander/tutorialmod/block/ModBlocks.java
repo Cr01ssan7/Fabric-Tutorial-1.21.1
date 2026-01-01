@@ -14,6 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.xander.tutorialmod.TutorialMod;
 
+
 public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
             new Block(AbstractBlock.Settings.create()
@@ -31,7 +32,7 @@ public class ModBlocks {
         Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
-
+// Logger that verifies ModBlocks being registered
     public static void registerModBlocks() {
         TutorialMod.LOGGER.info("Registering Mod Blocks for" + TutorialMod.MOD_ID);
 

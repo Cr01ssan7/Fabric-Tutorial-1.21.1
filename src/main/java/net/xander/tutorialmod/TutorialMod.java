@@ -7,6 +7,8 @@ import net.xander.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// Start Init Mod Components
+
 public class TutorialMod implements ModInitializer {
 	public static final String MOD_ID = "tutorialmod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -17,3 +19,5 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 	}
 }
+
+// End Init Mod Components
