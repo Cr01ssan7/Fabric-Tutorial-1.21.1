@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorial:pink_garnet_block",
+    "tutorial:raw_pink_garnet_block",
+    "tutorial:pink_garnet_ore",
+    "tutorial:pink_garnet_deepslate_ore"
+  ]
+}
