@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tutorialmod:lightning_essence"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:smite_stick"
+  }
+}

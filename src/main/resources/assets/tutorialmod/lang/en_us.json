@@ -1,6 +1,11 @@
 {
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorialmod.chisel": "Chisel",
+
+  "item.tutorialmod.lightning_essence": "Lightning Essence",
+  "item.tutorialmod.smite_stick": "Smite Stick",
+
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -8,6 +13,10 @@
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
+  "block.tutorialmod.lightning_essence_ore": "Lightning Essence Ore",
+
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+  "itemgroup.tutorialmod.lightning_items": "Lightning Items",
+  "itemgroup.tutorialmod.lightning_blocks": "Lightning Blocks"
 }

@@ -19,6 +19,7 @@ public class ModItemGroups {
                       entries.add(ModItems.PINK_GARNET);
                       entries.add(ModItems.RAW_PINK_GARNET);
 
+                      entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -31,6 +32,16 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+                    }).build());
+
+    public static final ItemGroup LIGHTNING_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "lightning_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LIGHTNING_ESSENCE))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.lightning_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.LIGHTNING_ESSENCE);
+                        entries.add(ModItems.SMITE_STICK);
+                        entries.add(ModBlocks.LIGHTNING_ESSENCE_ORE);
                     }).build());
 
 
