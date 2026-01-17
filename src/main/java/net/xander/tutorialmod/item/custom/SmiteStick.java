@@ -98,6 +98,11 @@ public class SmiteStick extends Item {
                 );
                 serverWorld.spawnEntity(selfStrike);
             }
+
+            user.damage(
+                    serverWorld.getDamageSources().lightningBolt(),
+                    0.5F // half a heart = 1.0F
+            );
         }
 
         user.getItemCooldownManager().set(this, COOLDOWN_TICKS);
