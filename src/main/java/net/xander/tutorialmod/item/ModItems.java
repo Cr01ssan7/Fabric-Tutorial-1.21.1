@@ -20,7 +20,7 @@ public class ModItems {
 
     public static final Item LIGHTNING_ESSENCE = registerItem("lightning_essence", new Item(new Item.Settings()));
 
-    public static final Item SMITE_STICK = registerItem("smite_stick", new SmiteStick(new Item.Settings().maxDamage(35).maxCount(1)));
+    public static final Item SMITE_STICK = registerItem("smite_stick", new SmiteStick(new Item.Settings().maxDamage(70).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {
