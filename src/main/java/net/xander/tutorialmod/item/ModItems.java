@@ -15,7 +15,7 @@ public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(300)));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(300).maxCount(1)));
 
 
     public static final Item LIGHTNING_ESSENCE = registerItem("lightning_essence", new Item(new Item.Settings()));

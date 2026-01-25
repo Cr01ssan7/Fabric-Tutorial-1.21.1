@@ -33,8 +33,6 @@ public class SmiteStick extends Item {
         return true;
     }
 
-
-
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack stack = user.getStackInHand(hand);
 
