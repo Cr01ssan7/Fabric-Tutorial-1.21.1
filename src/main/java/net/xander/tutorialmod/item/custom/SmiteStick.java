@@ -73,12 +73,12 @@ public class SmiteStick extends Item {
             serverWorld.spawnEntity(lightning);
             serverWorld.spawnParticles(
                     ParticleTypes.ELECTRIC_SPARK,
-                    pos.x +0,
-                    pos.y + 1,
-                    pos.z +0,
+                    x + 0.0,
+                    y + 1.0,
+                    z + 0.0,
                     40,
                     0.4, 1.0, 0.4,
-                    0.0
+                    0.5
             );
         }
 
